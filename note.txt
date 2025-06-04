@@ -1,0 +1,56 @@
+// khoi tao tu dau
+tao project React bang tool vitejs
+
+// tao du an
+npm create vite@latest
+
+// start project
+npm run dev
+
+// xem cac thu vien dang su dung
+file package.json => dependencies
++ dependencies: cac thu vien chinh se su dung
++ devDependencies: cac thu vien su dung khi chay o moi truong phat trien (localhost)
+
+// sau do can cai cac thu vien/library de phat trien du an
+npm install ten_thu_vien
+vi du cai thu vien Ant design de xay dung UI, thi chay lenh
+npm install antd
+
+____dependencies____
+"@tanstack/react-query": "^5.29.2", => goi api
+"antd": "^5.16.2",   => xay dung giao dien UI (user interface, vi du nhu o Input dang nhap)
+"axios": "^1.6.8",   => goi api
+"clsx": "^2.1.0",     => ho tro code
+"js-cookie": "^3.0.5",  => doc Cookie tu trinh duyet, vi doc token ra
+"lodash": "^4.17.21",  => thu vien co nhieu tien ich giup code tien hon
+"query-string": "^9.0.0",  => thu vien doc param tu URL cua trinh duyet, vi du dung React lay du lieu o search day len URL, sau do dung thu vien nay lay cac param (keyword, status) goi API
+"react": "^18.2.0", => ReactJS cua Dev Facebook (HTML CSS Javascript)
+"react-dom": "^18.2.0",  => di kem ReactJS, tao ra DOM ao (Document Object Model) => tac dung chinh la load lai nhung phan website thay doi
+"react-error-boundary": "^4.0.13",  => boc cac cai loi lai trong 1 giao dien de tang trai nghiem nguoi dung (cach hien thi loi)
+"react-helmet": "^6.1.0",  => thay doi tieu de website (hien thi tren tab trinh duyet)
+"react-icons": "^5.1.0",   => lay cac icon trong thu vien de su dung
+"react-router-dom": "^6.22.3",  => quan ly cac man hinh/trang (vi du /order se ra man hinh Danh sach don hang)
+"recoil": "^0.7.7",  => giup quan ly trang thai (state) cua du an
+"styled-components": "^6.1.8",  => chinh sua CSS theo y cua minh (ghi de len thu vien)
+"suneditor": "^2.46.2",  => thu vien ho tro Editor (chinh font size, in nghieng, boi dam..)
+"suneditor-react": "^3.6.1"  => thu vien ho tro Editor (chinh font size, in nghieng, boi dam..)
+
+____devDependencies____ => su dung tren may tinh cua minh
+"@types/js-cookie": "^3.0.6",  => giup minh code de hon voi Typescript o may tinh cua minh (khi co @type)
+"@types/lodash": "^4.17.0",
+"@types/react": "^18.2.66",
+"@types/react-dom": "^18.2.22",
+"@types/react-helmet": "^6.1.11",
+"@typescript-eslint/eslint-plugin": "^7.2.0",
+"@typescript-eslint/parser": "^7.2.0",
+"@vitejs/plugin-react": "^4.2.1", => la tool cua vitejs, giup code tot hon voi React
+"autoprefixer": "^10.4.19", => tool co san tu khi tao project => muc dich chung la cac cau hinh co san, giup code tot hon
+"eslint": "^8.57.0", => tool co san tu khi tao project => muc dich chung la cac cau hinh co san, giup code tot hon
+"eslint-plugin-react-hooks": "^4.6.0", => tool co san tu khi tao project => muc dich chung la cac cau hinh co san, giup code tot hon
+"eslint-plugin-react-refresh": "^0.4.6", => tool co san tu khi tao project => muc dich chung la cac cau hinh co san, giup code tot hon
+"postcss": "^8.4.38", => tool co san tu khi tao project => muc dich chung la cac cau hinh co san, giup code tot hon
+"tailwindcss": "^3.4.3", => no la 1 cai thu vien xay dung giao dien (UI) giup code tot hon nhung cai ma Ant design khong ho tro
+"typescript": "^5.2.2",  => thu vien typescript giup code tot hon (luc tao project se hoi)
+"vite": "^5.2.0",  => tool tao project, co san tu khi tao tu du an
+"vite-tsconfig-paths": "^4.3.2" => tool tao project, co san tu khi tao tu du an
